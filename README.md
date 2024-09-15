@@ -13,7 +13,7 @@ Some examples of envelopedData and authEnvelopedData objects using RSA-KEM from 
 ## Key and certificate used
 
 + __rfc5990bis-bob-key.pem__ Bob's 3072-bit RSA private key from RFC5990bis, no password.
-+ __rfc5990bis-bob.cer__ A made-up X.509 certificate using Bob's public key from RFC5990bis.
++ __rfc5990bis-bob.cer__ A made-up self-signed X.509 certificate using Bob's public key and subjectKeyIdentifier from RFC5990bis.
 
 
 ## Subfolders
