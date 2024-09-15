@@ -1,0 +1,94 @@
+  0 641: SEQUENCE {
+  4   9:   OBJECT IDENTIFIER envelopedData (1 2 840 113549 1 7 3)
+ 15 626:   [0] {
+ 19 622:     SEQUENCE {
+ 23   1:       INTEGER 3
+ 26 553:       SET {
+ 30 549:         [4] {
+ 34  11:           OBJECT IDENTIFIER
+       :             KEMRecipientInfo (1 2 840 113549 1 9 16 13 3)
+ 47 532:           SEQUENCE {
+ 51   1:             INTEGER 0
+ 54  57:             SEQUENCE {
+ 56  50:               SEQUENCE {
+ 58  12:                 SET {
+ 60  10:                   SEQUENCE {
+ 62   3:                     OBJECT IDENTIFIER commonName (2 5 4 3)
+ 67   3:                     PrintableString 'Bob'
+       :                     }
+       :                   }
+ 72  16:                 SET {
+ 74  14:                   SEQUENCE {
+ 76   3:                     OBJECT IDENTIFIER
+       :                       organizationName (2 5 4 10)
+ 81   7:                     PrintableString '5990bis'
+       :                     }
+       :                   }
+ 90  16:                 SET {
+ 92  14:                   SEQUENCE {
+ 94   3:                     OBJECT IDENTIFIER
+       :                       organizationalUnitName (2 5 4 11)
+ 99   7:                     PrintableString 'Self CA'
+       :                     }
+       :                   }
+       :                 }
+108   3:               INTEGER 366859
+       :               }
+113   9:             SEQUENCE {
+115   7:               OBJECT IDENTIFIER kemRSA (1 0 18033 2 2 4)
+       :               }
+124 384:             OCTET STRING
+       :               71 1C 72 72 89 6C AB 41 8F A4 A7 07 76 1A FE 0D
+       :               B1 BD 3F 70 E6 97 73 17 77 65 C3 37 E3 C8 3D D4
+       :               75 EB 20 63 F3 83 42 6E 82 8F B4 8C 51 65 F7 A2
+       :               03 E8 1B BD 5B 5E D9 37 87 DE 28 82 2E 42 D9 F1
+       :               CE DB FA 77 2A 1C 41 52 20 7B 52 C6 A3 4E 43 54
+       :               D3 E6 E7 00 89 C0 A3 14 34 E6 B7 6B 11 11 2D EB
+       :               E6 E2 90 A8 76 C1 6D 8D 36 3B D7 14 19 53 BE 9C
+       :               C4 D6 9A E2 B6 E4 FB 83 1C 64 D4 26 E5 D9 FE BF
+       :               62 91 59 D7 01 65 B3 04 5C 39 D6 C7 95 2C 28 58
+       :               02 47 F3 F2 81 28 2B 2F C4 0E 52 CA D3 C7 1F F6
+       :               13 8E 7E 56 76 E3 6A BB CC D7 1C 47 1A 70 B9 5C
+       :               A9 EC C4 3D C3 F7 DB D2 97 71 1A 81 AA 03 D7 40
+       :               D9 70 93 9B BA 0A D1 7D 9A B1 A8 76 B9 C4 90 E5
+       :               9F C3 3D EF FC A7 BF BB 04 6C A4 20 9B E4 2D 88
+       :               E0 8C 6A C7 A1 8F 70 C7 B4 08 7B 33 A2 58 F9 D0
+       :               C6 04 C5 05 9B EF 51 3E 1F AB DF DC 1A B2 6D 9B
+       :               87 D3 E8 A8 DD E7 AE 75 63 12 F6 03 E9 42 74 11
+       :               58 64 52 22 3A 64 DD 63 E9 B1 9C BE F8 19 EE AB
+       :               E2 E5 C1 0D 37 98 9E 18 26 09 C7 37 12 31 C4 31
+       :               0D 14 E6 48 3A 3B 6B 18 64 68 98 12 8A 6B 7D 99
+       :               FF 9C 9B 2D 9C C7 48 05 9F 65 3E 3A C7 7D B0 49
+       :               B5 D9 B2 F4 A4 26 1D 7A 3B 90 5E FA 0F 48 F1 37
+       :               AC 40 54 AF 0D F1 94 A3 6F 49 CD C2 93 FC 8B 61
+       :               54 99 D7 84 71 49 79 77 3D BE 65 C2 42 18 8F 29
+512  27:             SEQUENCE {
+514  10:               OBJECT IDENTIFIER kdf3 (1 3 133 16 840 9 44 1 2)
+526  13:               SEQUENCE {
+528   9:                 OBJECT IDENTIFIER
+       :                   sha-256 (2 16 840 1 101 3 4 2 1)
+539   0:                 NULL
+       :                 }
+       :               }
+541   1:             INTEGER 16
+544  11:             SEQUENCE {
+546   9:               OBJECT IDENTIFIER
+       :                 aes128-wrap (2 16 840 1 101 3 4 1 5)
+       :               }
+557  24:             OCTET STRING
+       :               39 53 06 0D 02 52 89 D6 73 12 0A 94 50 41 D0 F6
+       :               06 53 58 2D 9F B1 25 64
+       :             }
+       :           }
+       :         }
+583  60:       SEQUENCE {
+585   9:         OBJECT IDENTIFIER data (1 2 840 113549 1 7 1)
+596  29:         SEQUENCE {
+598   9:           OBJECT IDENTIFIER aes128-CBC (2 16 840 1 101 3 4 1 2)
+609  16:           OCTET STRING 27 C2 5E 72 6E A3 48 A0 81 4A B2 B0 6C 48 F9 CA
+       :           }
+627  16:         [0] 10 E6 39 E9 C8 F2 59 0F 1E 3B 4C 0F 93 C8 40 6E
+       :         }
+       :       }
+       :     }
+       :   }

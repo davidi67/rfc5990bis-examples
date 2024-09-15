@@ -1,0 +1,75 @@
+  0 626: SEQUENCE {
+  4   9:   OBJECT IDENTIFIER envelopedData (1 2 840 113549 1 7 3)
+ 15 611:   [0] {
+ 19 607:     SEQUENCE {
+ 23   1:       INTEGER 3
+ 26 538:       SET {
+ 30 534:         [4] {
+ 34  11:           OBJECT IDENTIFIER
+       :             KEMRecipientInfo (1 2 840 113549 1 9 16 13 3)
+ 47 517:           SEQUENCE {
+ 51   1:             INTEGER 0
+ 54  20:             [0]
+       :               9E EB 67 C9 B9 5A 74 D4 4D 2F 16 39 66 80 E8 01
+       :               B5 CB A4 9C
+ 76   9:             SEQUENCE {
+ 78   7:               OBJECT IDENTIFIER kemRSA (1 0 18033 2 2 4)
+       :               }
+ 87 384:             OCTET STRING
+       :               65 96 C4 D3 37 D8 F9 F3 D9 93 DF 42 C4 62 37 31
+       :               21 EF C5 B8 08 87 B7 A9 AB 16 48 47 D3 1A F2 0B
+       :               4C 77 E0 01 BC 32 4F 30 8F 43 CF AE 2A E4 ED AE
+       :               FC 24 66 66 1C 97 3D A2 AA 31 AD F5 FC 83 3F 65
+       :               FD 21 55 3C 6E 3D FE 5B 5E 72 CD 75 3A BD B7 27
+       :               0A E1 24 04 A1 A0 4C FF E1 C5 C1 0A 6D 2E C8 F0
+       :               FB 95 91 F7 5B 8C C0 75 1D EB D1 4E 1F 3B FD C1
+       :               AE 3B 3D A9 D1 AA B9 4A 71 C5 47 A6 3C DD C1 97
+       :               6B DB 29 A0 40 1A 2D 67 87 A8 47 91 60 EF 66 B8
+       :               4C 41 90 04 72 E2 41 8C 8A 7E 95 6C 30 E0 C9 00
+       :               B7 13 39 18 AB 77 2C 2F 38 CC A2 75 3E 30 5E 2B
+       :               63 03 BE A7 3F 9F 9E 8C 6D 8D B4 F8 6B 28 F3 A6
+       :               11 44 48 50 20 0D C5 7D 43 53 F9 19 71 4D 88 A9
+       :               2D 29 9B 6C 83 5C 38 11 DF A8 73 29 44 DC 64 9A
+       :               CF 50 21 1B 58 57 58 D9 26 C3 72 5D 34 CB 8D FC
+       :               87 A7 4A F3 43 66 A0 71 F5 CB AB 92 5C B4 6A 12
+       :               4C FA 24 6B 39 D4 E5 39 43 9F 8B A5 C7 DA B7 18
+       :               DE F4 DE AC EF 3B 99 9D C5 58 34 EA 61 61 26 F7
+       :               5D CD 42 D0 BD 13 97 39 54 41 F0 AB BE 57 3A FF
+       :               73 E1 20 8D 38 8E 75 ED C6 2F FF 05 B2 75 82 87
+       :               4E 66 D5 FC 0C ED CD F9 D6 15 85 07 4C F4 25 1A
+       :               F6 6B EF EA 6C AA 13 21 86 E7 DA BC 42 78 82 6C
+       :               6A 6E 1E C4 8E 32 AA 33 0F 93 E8 06 46 33 52 19
+       :               4B C9 28 C2 67 13 DB 2D 62 AF 8E 59 4F 5B 50 FE
+475  27:             SEQUENCE {
+477  10:               OBJECT IDENTIFIER kdf3 (1 3 133 16 840 9 44 1 2)
+489  13:               SEQUENCE {
+491   9:                 OBJECT IDENTIFIER
+       :                   sha-256 (2 16 840 1 101 3 4 2 1)
+502   0:                 NULL
+       :                 }
+       :               }
+504   1:             INTEGER 16
+507  20:             [0] {
+509  18:               OCTET STRING 'some user key info'
+       :               }
+529  11:             SEQUENCE {
+531   9:               OBJECT IDENTIFIER
+       :                 aes128-wrap (2 16 840 1 101 3 4 1 5)
+       :               }
+542  24:             OCTET STRING
+       :               66 04 D5 E9 8A 65 56 B3 95 B7 34 A4 84 89 DC 0C
+       :               4D 88 33 A3 E0 44 F7 2E
+       :             }
+       :           }
+       :         }
+568  60:       SEQUENCE {
+570   9:         OBJECT IDENTIFIER data (1 2 840 113549 1 7 1)
+581  29:         SEQUENCE {
+583   9:           OBJECT IDENTIFIER aes128-CBC (2 16 840 1 101 3 4 1 2)
+594  16:           OCTET STRING 26 40 19 9B 68 3A E7 60 43 AF C9 DC C2 BA 60 1C
+       :           }
+612  16:         [0] 2C 0F D6 7F 7E B3 E9 A8 92 19 4F 37 62 9C E4 8F
+       :         }
+       :       }
+       :     }
+       :   }
