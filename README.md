@@ -16,6 +16,13 @@ Some examples of envelopedData and authEnvelopedData objects using RSA-KEM from 
 + __rfc5990bis-bob.cer__ A made-up X.509 certificate using Bob's public key from RFC5990bis.
 
 
+## Subfolders
+
++ __asn1dumps__ ASN.1 structures created using DUMPASN1
+
++ __pemfiles__ Textual encodings of binary .p7m files
+
+
 David Ireland  
 CryptoSys, Australia  
 <https://www.cryptosys.net/contact/>
