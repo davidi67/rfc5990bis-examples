@@ -22,6 +22,8 @@ Some examples of envelopedData and authEnvelopedData objects using RSA-KEM from 
 
 + __pemfiles__ Textual encodings of binary .p7m files
 
+These example files were created using (an advance copy of) v23.0 of the [CryptoSys PKI Toolkit](https://www.cryptosys.net/pki).
+
 
 David Ireland  
 CryptoSys, Australia  
