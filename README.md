@@ -12,7 +12,7 @@ Some examples of envelopedData and authEnvelopedData objects using RSA-KEM from 
 
 ## Key and certificate used
 
-+ __rfc5990bis-bob-p8.pem__ -- Bob's 3072-bit RSA private key from RFC5990bis, no password.
++ __rfc5990bis-bob.p8.pem__ -- Bob's 3072-bit RSA private key from RFC5990bis, no password.
 + __rfc5990bis-bob.cer__ -- A made-up self-signed X.509 certificate using Bob's public key and subjectKeyIdentifier from RFC5990bis.
 
 
@@ -22,10 +22,11 @@ Some examples of envelopedData and authEnvelopedData objects using RSA-KEM from 
 
 + __pemfiles__ -- Textual encodings of binary .p7m files
 
-+ __pycode__ -- Python code to create the examples 
++ __pycode__ -- Python code to create the examples.
 
 These example files were created using v23.0 of the [CryptoSys PKI Toolkit](https://www.cryptosys.net/pki).
 
+Note that the Python code uses random input each time it is used, so the output files will have different values each time but the same ASN.1 structure.
 
 David Ireland  
 CryptoSys, Australia  
